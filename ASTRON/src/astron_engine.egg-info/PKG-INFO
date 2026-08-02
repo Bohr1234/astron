@@ -1,0 +1,43 @@
+Metadata-Version: 2.4
+Name: astron-engine
+Version: 1.0.0
+Summary: An open-source Python engine for orbital mechanics and real-time trajectory simulation
+Author: Your Name
+License: MIT
+Project-URL: Homepage, https://github.com/yourusername/astron
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib>=3.0.0
+Requires-Dist: google-genai>=0.1.0
+Dynamic: license-file
+
+# ASTRON
+### An Orbital Mechanics & Physics Engine in Python
+
+A Python-based simulation engine for calculating orbital mechanics, rocket propulsion, and visualizing 2D trajectories, integrated with the Gemini API to answer astrophysical questions.
+
+## Features
+* **Astrodynamics & Physics Constants:** Built-in standard physical constants for Earth.
+* **Rocket Equations:** Calculates delta-v and dry mass constraints.
+* **Orbital Calculations:** Computes circular orbital speeds at given altitudes.
+* **Trajectory Plotting:** Generates 2D trajectory visualizations using Matplotlib.
+* **AI Integration:** Uses the Gemini API for real-time natural language query support on spaceflight physics.
+
+## Installation
+
+1. Navigate to the project directory.
+2. Install the required dependencies:
+   ```bash
+   py -m pip install matplotlib google-genai
+
+## Usage
+
+   Project Directory
+   py src/astron/astron_v1.py
+   
+   
